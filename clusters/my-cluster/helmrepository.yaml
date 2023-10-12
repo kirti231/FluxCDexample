@@ -2,8 +2,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: podinfo
+  name: test-helmtry
   namespace: default
 spec:
   interval: 5m0s
-  url: https://stefanprodan.github.io/podinfo
+  url: https://github.com/kirti231/FluxCDexample/tree/main/clusters/my-cluster/docs
